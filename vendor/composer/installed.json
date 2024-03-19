@@ -1,0 +1,51 @@
+{
+    "packages": [
+        {
+            "name": "fawno/wget",
+            "version": "1.0.5",
+            "version_normalized": "1.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fawno/wget.git",
+                "reference": "082545b08057214a644e5d88e3c97bac66528b0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fawno/wget/zipball/082545b08057214a644e5d88e3c97bac66528b0f",
+                "reference": "082545b08057214a644e5d88e3c97bac66528b0f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-openssl": "*",
+                "php": ">=5.6.0"
+            },
+            "time": "2023-03-05T22:05:04+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Fawno\\wget\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fawno",
+                    "homepage": "https://github.com/fawno/wget/graphs/contributors"
+                }
+            ],
+            "description": "PHP Class wget",
+            "support": {
+                "issues": "https://github.com/fawno/wget/issues",
+                "source": "https://github.com/fawno/wget"
+            },
+            "install-path": "../fawno/wget"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

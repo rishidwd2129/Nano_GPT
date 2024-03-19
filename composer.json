@@ -1,0 +1,5 @@
+{
+    "require": {
+        "fawno/wget": "^1.0"
+    }
+}

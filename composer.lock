@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "49c48f307d2ffa02c747f9612dc9882f",
+    "packages": [
+        {
+            "name": "fawno/wget",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fawno/wget.git",
+                "reference": "082545b08057214a644e5d88e3c97bac66528b0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fawno/wget/zipball/082545b08057214a644e5d88e3c97bac66528b0f",
+                "reference": "082545b08057214a644e5d88e3c97bac66528b0f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-openssl": "*",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fawno\\wget\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fawno",
+                    "homepage": "https://github.com/fawno/wget/graphs/contributors"
+                }
+            ],
+            "description": "PHP Class wget",
+            "support": {
+                "issues": "https://github.com/fawno/wget/issues",
+                "source": "https://github.com/fawno/wget"
+            },
+            "time": "2023-03-05T22:05:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
